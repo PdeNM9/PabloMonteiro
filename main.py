@@ -9,7 +9,7 @@ about_page = st.Page(
     default=True,
 )
 project_1_page = st.Page(
-    "views/segunda.py",
+    "views/chamatexto.py",
     title="ChamaTexto",
     icon=":material/bar_chart:",
 )
@@ -33,8 +33,8 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("assets/PabloMonteiro.webp")
-st.sidebar.text("Feito com ❤️ por Pablo!")
+#st.logo("assets/PabloMonteiro.webp") COLOCAR UM LOGO AQUI
+st.sidebar.text("Feito por Pablo!")
 
 
 # --- RUN NAVIGATION ---
